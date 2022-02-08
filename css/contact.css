@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main
+{
+    /*Not necessary, but we do want it this way*/
+    width: 100vw;  /*Not necessary, but we do want it this way*/
+    height: 100vh;
+    background-image: url(../images/contactmeBackground.jpg);
+    opacity: 0.8;
+    background-size: cover;
+    background-attachment: fixed;
+ 
+
+}
+main .insta
+{ display: block;
+    position: absolute;
+    margin: 200px auto 0 250px ;
+    width:200px;
+    height:190px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+    transition:  2s;
+  
+}
+main .insta:hover
+{
+    width: 300px;
+}
+main .linkedin
+{display: block;
+  position: absolute;
+  margin: 200px 0px 0 700px ;
+ 
+    width:200px;
+    height:200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+  
+    transition:  2s;
+  
+}
+main .linkedin:hover
+{
+  
+    width: 300px;
+}
